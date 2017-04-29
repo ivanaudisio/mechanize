@@ -5,5 +5,7 @@ The Mechanize library is used for automating interaction with websites. Mechaniz
 ### Install Ubuntu
 
 apt-get update
+
 apt-get install python-mechanize -y
+
 apt-get -q clean -y && rm -rf /var/lib/apt/lists/* && rm -f /var/cache/apt/*.bin
